@@ -1,0 +1,15 @@
+import java.util.Scanner;
+class percentage{
+    public static void main(String[]args){
+        Scanner S = new Scanner(System.in);
+        System.out.println("enter the 5 subject numbers");
+        int a= S.nextInt();
+        int b= S.nextInt();
+        int c= S.nextInt();
+        int d= S.nextInt();
+        int e= S.nextInt();
+        int tot= a+b+c+d+e;
+        int percentage= (tot/5);
+        System.out.println(percentage +'%');
+    }
+}
